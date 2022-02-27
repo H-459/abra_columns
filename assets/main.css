@@ -1,0 +1,207 @@
+nav {
+    
+    background-color: #0e1649;
+}
+
+h6{
+    font-size: 16px;
+    color: #1c1c1c;
+    text-transform: uppercase;
+    line-height: 1.69;
+    font-weight: normal;
+
+}
+
+button{
+    padding: 16px 32px;
+    border-radius: 12px;
+    background-color: #ff9f00;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    width: 157px;
+    height: 56px;
+    font-family: "assistant";
+}
+
+
+a{ 
+    text-decoration: none;
+    color:inherit; 
+}
+.column a{
+    text-decoration: underline;
+    color: #ff7748;
+}
+
+hr{
+    margin-top:  40px;
+    margin-bottom: 40px;
+}
+
+
+#main{
+   width: 1920px;
+    display: flex; 
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+.latest-updates{
+  width: 196px;
+  height: 27px;
+  margin: 64px 258px 64px 64px;
+  font-family: Courier;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: -0.48px;
+  text-align: left;
+  color: #0e1649;
+}
+
+.column-small{
+    width:  25%;
+
+}
+
+.column-large{
+    width: 50%;
+}
+
+.column{
+    margin-right: 24px;
+}
+
+.column p, .column h6, .column-img, .content-box p{
+    margin-bottom: 16px;
+}
+
+.nav-box{
+    background-color: #0e1649;
+    color: #fff;
+}
+
+.left-sidebar{
+    width: 18%;
+    height: 1080px;
+}
+
+.main-content{
+    width: 82%;
+    height: 1080px;
+}
+
+.margin{
+    margin-left: 64px;
+}
+
+.margin-right{
+    margin-right: 64px;
+}
+
+
+.abra-logo{
+   /* background-image: url("logo.png"); */
+    margin-bottom: 64px;
+}
+
+.nav-item{
+    margin-bottom: 24px;
+}
+
+.nav-selected{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.nav-menu.right, .column button{
+        margin-top: 16px;
+}
+
+.nav-menu.right a{
+    margin: auto;
+    font-family: Assistant;
+    font-size: 24px;
+    margin-left: 24px;
+
+}
+.nav-box.top-menu{
+    width: 1986px;
+}
+
+.nav-box-top-menu{
+    display:flex;
+    justify-content:space-between;
+    position: relative;
+    top: 32px;
+   
+}
+
+.big-image{
+    background-image: url("bigpic/woman-img.png");
+    background-position: right;
+    height: 76%;
+}
+
+.text-container{
+    width: 581px;
+    margin-left: 175px;
+    position: absolute;
+    top: 238px;
+}
+
+.big-image-title{
+
+    font-family: TimesNewRoman;
+    font-size: 72px;
+    font-weight: bold;
+    color: #0e1649;
+    letter-spacing: 1.44px;
+}
+
+
+.bottom-items{
+    height: 24%;
+}
+
+.content-box{
+    display: inline-flex;
+    width: 33.33%;
+    height: 100%;
+    background-color: #ff9f00;
+}
+
+.content-box.orange{
+    background-color: #ff7748;
+}
+
+.content-box.pink{
+    background-color: #ff5288;
+}
+
+.content-box-text-title{
+    color: #1c1c1c;
+    letter-spacing: 0.48px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.content-box-text{
+    margin: 32px;
+}
+
+button:hover{
+    background-color: #f08e0e;
+}
+
+button:focus{
+    border: solid 2px #d87a00;
+    background-color: #f08e0e;
+}
+
+button:active{  
+    background-color: #fb3;
+}
